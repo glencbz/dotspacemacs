@@ -31,9 +31,9 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
+     ;; elixir
      erlang
      elixir
-     ;; elixir
      markdown
      ruby
      typescript
@@ -136,6 +136,8 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
+
+   ;; solarized-light and flatland just because
    dotspacemacs-themes '(sanityinc-solarized-light flatland)
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
@@ -148,6 +150,8 @@ values."
    ;;                             :weight normal
    ;;                             :width normal
    ;;                             :powerline-scale 1.1)
+
+   ;; Source Code Pro in a reasonable size
    dotspacemacs-default-font '("Source Code Pro"
                                :size 18
                                :weight normal
